@@ -3,6 +3,8 @@
 
 This is a sample ncnn yolov8 object segment android project, it depends on **ncnn** library and **opencv**.
 
+[How to convert yolov8 model to ncnn model?](https://github.com/Digital2Slave/ncnn-android-yolov8-seg/wiki/Conver-yolov8-model-to-ncnn-model)
+
 
 ## 1 How to build and run
 
