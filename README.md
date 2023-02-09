@@ -11,11 +11,14 @@ This is a sample ncnn yolov8 object segment android project, it depends on **ncn
 * Download [ncnn-YYYYMMDD-android-vulkan.zip](https://github.com/Tencent/ncnn/releases).
 * Extract **ncnn-YYYYMMDD-android-vulkan.zip** into **app/src/main/jni** folder and change the **ncnn_DIR** path to yours in **app/src/main/jni/CMakeLists.txt**.
 
+> For example:`ncnn-20221128-android-vulkan`
 
 ### 1.2 Configure OpenCV
 
 * Download [opencv-mobile-XYZ-android.zip](https://github.com/nihui/opencv-mobile)
 * Extract **opencv-mobile-XYZ-android.zip** into **app/src/main/jni** and change the **OpenCV_DIR** path to yours in **app/src/main/jni/CMakeLists.txt**.
+
+> For example:`opencv-mobile-4.6.0-android`
 
 ### 1.3 Build and Install ncnn-yolov8-seg app
 
