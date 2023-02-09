@@ -1,0 +1,45 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 27
+    // buildToolsVersion "29.0.2"
+
+    defaultConfig {
+        applicationId "com.tencent.yolov8ncnn"
+        archivesBaseName = "$applicationId"
+
+        minSdkVersion 24
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        // 添加abiFilters
+        externalNativeBuild {
+            cmake {
+                cppFlags "-std=c++11 -frtti -fexceptions"
+                abiFilters 'arm64-v8a'
+                //arguments "-DANDROID_STL=c++_shared"
+            }
+        }    
+        // 添加abiFilters
+        ndk {
+            abiFilters 'arm64-v8a'
+        }
+    }
+
+    // 设置jniLibs
+    // sourceSets {
+    //     main {
+    //         jniLibs.srcDirs = ['src/main/jniLibs']
+    //     }
+    // }
+
+    externalNativeBuild {
+        cmake {
+            version "3.10.2"
+            path file('src/main/jni/CMakeLists.txt')
+        }
+    }
+
+    dependencies {
+        implementation 'com.android.support:support-v4:24.0.0'
+    }
+}
