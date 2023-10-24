@@ -4,9 +4,14 @@
 This is a sample ncnn yolov8 object segment android project, it depends on **ncnn** library and **opencv**.
 
 Method 1
+
 - [How to convert yolov8 model to ncnn model?](https://github.com/Digital2Slave/ncnn-android-yolov8-seg/wiki/Convert-yolov8-model-to-ncnn-model)
 
 Method 2
+
+- [Convert yolov8‐seg to ncnn model step by step](https://github.com/Digital2Slave/ncnn-android-yolov8-seg/wiki/Convert-yolov8%E2%80%90seg-to-ncnn-model-step-by-step)
+
+Method 3
 
 - `ultralytics 8.0.129` add YOLOv8 Tencent NCNN export #3529 https://github.com/ultralytics/ultralytics/pull/3529
 
