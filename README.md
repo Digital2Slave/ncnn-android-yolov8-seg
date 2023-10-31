@@ -13,7 +13,7 @@ Method 2
 
 Method 3
 
-- `ultralytics 8.0.129` add YOLOv8 Tencent NCNN export #3529 https://github.com/ultralytics/ultralytics/pull/3529
+- ~~`ultralytics 8.0.129` add YOLOv8 Tencent NCNN export #3529 https://github.com/ultralytics/ultralytics/pull/3529~~
 
 
 ## 1 How to build and run
