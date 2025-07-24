@@ -48,7 +48,11 @@ Method 3
 
 ![](./doc/20230209114529.jpg)
 
-## 4 Reference
+## 📊 GitHub Stats
+
+![Alt](https://repobeats.axiom.co/api/embed/2f94ce240c907726c07fcf1cf97263edbf003997.svg "Repobeats analytics image")
+
+## 🔗 Reference
 
 - https://github.com/ultralytics/ultralytics 
 - https://github.com/Tencent/ncnn
